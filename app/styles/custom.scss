@@ -9,15 +9,15 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
 }
 
-$navbar-default-bg: #2c3e50;
-$navbar-default-border: darken($navbar-default-bg, 6.5%);
+// $navbar-default-bg: transparent;
+// $navbar-default-border: darken($navbar-default-bg, 6.5%);
 $navbar-default-color: #fff;
 
 .navbar-default {
-  background-color: $navbar-default-bg;
-  border-color: $navbar-default-border;
+  // background-color: $navbar-default-bg;
+  // border-color: $navbar-default-border;
   .navbar-brand, .navbar-nav > li > a {
-    color: #fff;
+    // color: #fff;
     &:hover {
       color: #eee;
     }
@@ -58,6 +58,18 @@ $navbar-default-color: #fff;
   //   margin-top: -3em;
   //   font-size: 3em;
   // }
+}
+
+// ul.affix-top {
+//   position: static;
+// }
+// ul.affix-bottom {
+//   position: absolute;
+// }
+
+.stuck {
+  position: fixed;
+  top: 60px;
 }
 
 .section {
