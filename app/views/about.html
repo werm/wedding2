@@ -1,27 +1,25 @@
 <div class="jumbotron">
-  <h1>About</h1>
+  <h1>A brief history...</h1>
   <p class="lead">
-    Craig &amp; Nicole
+    of Craig &amp; Nicole
   </p>
 </div>
-<div class="container">
+<div class="container-fluid timeline-container">
     <div class="page-header">
         <h1 id="timeline">Timeline</h1>
     </div>
-    <nav id="sidebar-nav" class="sidebar col-md-3">
-      <ul class="nav sidenav">
-        <ul class="nav">
-        <li><a class="nav-item" href="#the-beginning">Meeting</a></li>
-        <li><a class="nav-item" href="#meeting">First Date</a></li>
-        <li><a class="nav-item" href="#moving-in">Big Steps</a></li>
-        <li><a class="nav-item" href="#uneventful">Quiet Time</a></li>
-        <li><a class="nav-item" href="#second-biggest-day">The 2<sup>nd</sup> Biggest Day</a></li>
-        </ul>
+    <nav id="side-nav" class="sidebar" sticky offset="80">
+      <ul class="nav nav-list">
+        <li><a class="nav-item" href="#" scroll-to="the-beginning" offset="80" duration="500">In the beginning...</a></li>
+        <li><a class="nav-item" href="#" scroll-to="meeting" offset="80" duration="500">First Date</a></li>
+        <li><a class="nav-item" href="#" scroll-to="moving-in" offset="80" duration="500">Big Steps</a></li>
+        <li><a class="nav-item" href="#" scroll-to="uneventful" offset="80" duration="500">Quiet Time</a></li>
+        <li><a class="nav-item" href="#" scroll-to="second-biggest-day" offset="80" duration="500">The 2<sup>nd</sup> Biggest Day</a></li>
       </ul>
     </nav>
-    <ul class="timeline col-md-9">
+    <ul class="timeline">
         <li id="the-beginning">
-          <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+          <div class="timeline-badge"><i class="icon-mail"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title">In the beginning...</h4>
@@ -34,7 +32,7 @@
           </div>
         </li>
         <li id="meeting" class="timeline-inverted">
-          <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+          <div class="timeline-badge danger"><i class="icon-heart"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title">The first date.</h4>
@@ -49,7 +47,7 @@
           </div>
         </li>
         <li id="moving-in">
-          <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-badge success"><i class="icon-truck"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title">Then Craig Moved In</h4>
@@ -61,7 +59,7 @@
           </div>
         </li>
         <li id="uneventful" class="timeline-inverted">
-          <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-badge success"><i class="icon-study"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title">Quiet Time</h4>
@@ -69,10 +67,14 @@
             </div>
             <div class="timeline-body">
               <p>Stuff happened during this period, but nothing really relevant to this story.</p>
+              <p>Nicole started her Master's degree at the University of Dayton, and Craig started working for Ohio State as a Software Engineer.</p>
             </div>
           </div>
         </li>
         <li id="second-biggest-day">
+          <div class="timeline-badge primary">
+            <i class="icon-diamond"></i>
+          </div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title">The question.</h4>

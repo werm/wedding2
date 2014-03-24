@@ -6,9 +6,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>Craig &amp; Nicole</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
+    <base href="/">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
@@ -19,6 +20,8 @@
     <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Roboto:400,400i/Roboto+Slab:400,700">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/custom.css">
+    <link rel="stylesheet" href="styles/jquery.countdown.css">
+    <link rel="stylesheet" href="styles/swatches.css">
     <!-- endbuild -->
   </head>
   <body ng-app="ngApp">
@@ -40,9 +43,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="#about">About</a>
+                    <li><a ng-href="#about">About</a>
                     </li>
-                    <li><a href="#contact">Contact</a>
+                    <li><a ng-href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -77,23 +80,25 @@
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/jquery/jquery.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-    <script src="//rawgithub.com/imakewebthings/jquery-waypoints/master/shortcuts/sticky-elements/waypoints-sticky.min.js"></script>
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/sass-bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/angular-resource/angular-resource.js"></script>
     <script src="bower_components/angular-cookies/angular-cookies.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
-    <script src="scripts/libs/stickUp.js"></script>
-    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQoZIY2lj-j013e3GdfCAmohlPyn69mK4&sensor=false"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.9/gmaps.min.js"></script> -->
+    <script src="bower_components/jquery-waypoints/waypoints.js"></script>
     <!-- endbower -->
+    <script src="scripts/libs/angular.sticky.js"></script>
+    <script src="scripts/libs/angular.smoothscroll.js"></script>
+    <script src="scripts/libs/jquery.plugin.min.js"></script>
+    <script src="scripts/libs/jquery.countdown.min.js"></script>
+    <script src="scripts/libs/jquery.swatches.js"></script>
     <!-- endbuild -->
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
-        <script src="scripts/app.js"></script>
+        <script src="scripts/main.js"></script>
         <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/app.js"></script>
         <!-- endbuild -->
 </body>
 </html>
