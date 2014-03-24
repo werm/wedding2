@@ -11,7 +11,10 @@
     "angular-cookies": "1.2.6",
     "angular-sanitize": "1.2.6",
     "angular-route": "1.2.6",
-    "jquery-waypoints": ""
+    "angular-slugify": "",
+    "jquery-waypoints": "",
+    "firebase": "",
+    "angularfire": ""
   },
   "devDependencies": {
     "angular-mocks": "1.2.6",

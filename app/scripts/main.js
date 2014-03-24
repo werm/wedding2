@@ -5,6 +5,8 @@ angular.module('ngApp', [
   'ngResource',
   'ngSanitize',
   'ngRoute',
+  'firebase',
+  'slugifier',
   'sticky',
   'smoothScroll',
 ])
@@ -16,8 +18,8 @@ angular.module('ngApp', [
         controller: 'MainCtrl'
       })
       .when('/about', {
-        templateUrl: 'views/about.html'//,
-        // controller: 'AboutCtrl'
+        templateUrl: 'views/about.html',
+        controller: 'AboutCtrl'
       })
       .when('/colors', {
         templateUrl: 'views/colors.html'//,

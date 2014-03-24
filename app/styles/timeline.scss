@@ -16,7 +16,7 @@
     }
 
     .timeline > li {
-        margin-bottom: 40px;
+        margin-bottom: 60px;
         position: relative;
     }
 
@@ -94,18 +94,18 @@
             border-bottom-left-radius: 50%;
         }
 
-        .timeline > li.timeline-inverted > .timeline-panel {
+        .timeline > li:nth-child(2n) > .timeline-panel {
             float: right;
         }
 
-            .timeline > li.timeline-inverted > .timeline-panel:before {
+            .timeline > li:nth-child(2n)> .timeline-panel:before {
                 border-left-width: 0;
                 border-right-width: 15px;
                 left: -15px;
                 right: auto;
             }
 
-            .timeline > li.timeline-inverted > .timeline-panel:after {
+            .timeline > li:nth-child(2n)> .timeline-panel:after {
                 border-left-width: 0;
                 border-right-width: 14px;
                 left: -14px;
