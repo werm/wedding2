@@ -26,7 +26,7 @@ $(window).load(function(){
   $('.swatch').swatchify();
   // var engaged = new Date(2014, 4-1, 8)
   $('#countdown').countdown({since: new Date("March 8, 2014 20:00:00"), compact: true, 
-      layout: '<h3>Engaged for...</h3><h2>{on} months, {dn} days</h2> {desc}', 
+      layout: '<p class="navbar-text">Engaged for: {o<} {on} months,{o>} {dn} days</p> {desc}', 
           description: ''});
       // format: 'YOWD', description: 'Engaged for...'});
   // $('#side-nav .nav').waypoint('sticky', {

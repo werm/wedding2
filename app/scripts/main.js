@@ -21,6 +21,10 @@ angular.module('ngApp', [
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
+      .when('/details', {
+        templateUrl: 'views/details.html',
+        controller: 'DetailsCtrl'
+      })
       .when('/colors', {
         templateUrl: 'views/colors.html'//,
         // controller: 'AboutCtrl'

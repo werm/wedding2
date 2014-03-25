@@ -1,48 +1,28 @@
-@import "timeline";
-
 body {
-  padding-top: 80px;
+  margin-top: 50px;
   font-family: 'Roboto Slab', serif;
-  width: 100%;
+}
+
+html, body {
   height: 100%;
 }
-
-html {
-    width: 100%;
-    height: 100%;
-}
-
-@media(min-width:767px) {
-    .navbar {
-        padding: 20px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
-
-    .top-nav-collapse {
-        /* Customize the look and feel of the collapsed top nav here */
-        padding: 0;
-    }
-}
-
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
 }
 
-$navbar-default-bg: #202F56;
-$navbar-default-border: darken($navbar-default-bg, 6.5%);
+// $navbar-default-bg: transparent;
+// $navbar-default-border: darken($navbar-default-bg, 6.5%);
 $navbar-default-color: #fff;
 
 .navbar-default {
-  background-color: $navbar-default-bg;
-  border-color: $navbar-default-border;
+  // background-color: $navbar-default-bg;
+  // border-color: $navbar-default-border;
   .navbar-brand, .navbar-nav > li > a {
-    color: #fff;
-    &:hover {
-      color: #FFF5E1;
-    }
+    // color: #fff;
+    // &:hover {
+    //   color: #eee;
+    // }
   }
 }
 
@@ -51,6 +31,7 @@ $navbar-default-color: #fff;
   background-size: cover;
   text-align: center;
   padding: 200px 0;
+  position: relative;
 }
 
 .full-width-image-2 {
@@ -68,7 +49,7 @@ $navbar-default-color: #fff;
     font-size: 4em;
     display: inline-block;
     text-align: center;
-    color: #FFF5E1;
+    color: #eee;
     text-shadow: 0 0 8px rgba(0,0,0,0.6);
   }
   // .craig, .nicole {
@@ -136,4 +117,23 @@ footer {
   padding-bottom: 25px;
 }
 
+}
+
+#countdown {
+  text-align: center;
+  width: 100%;
+}
+
+.wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -110px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+.footer {
+  height: 60px;
+  background-color: #f5f5f5;
 }

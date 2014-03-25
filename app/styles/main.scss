@@ -1,5 +1,11 @@
 $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+$dark-blue: #202F56;
+$light-blue: #7393A2;
+$blush: #D2BAA0;
+$pink: #FCDBD6;
+$ivory: #FFF5E1;
 
+@import "timeline";
 @import 'sass-bootstrap/lib/bootstrap';
 
 .browsehappy {
@@ -12,7 +18,7 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 /* Space out content a bit */
 body {
     // padding-top: 60px;
-    padding-bottom: 20px;
+    // padding-bottom: 20px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -127,3 +133,5 @@ body {
 .icon-truck:before {
     content: "\e604";
 }
+
+#countdown h2, #countdown h3 { display: inline-block; }
